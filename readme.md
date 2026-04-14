@@ -1,6 +1,6 @@
 # 🚀 Website Hosting on Red Hat Linux 10 using Apache | VMware Project
 
-![Project Banner](screenshots/Screenshot 2026-04-14 153614.png)
+![Project Banner](screenshots/Screenshot%202026-04-14%20153614.png)
 
 ---
 
@@ -20,20 +20,20 @@ The goal of this project was to simulate a real-world Linux web hosting environm
 ✅ Enable HTTP access using firewall rules  
 ✅ Troubleshoot SELinux restrictions  
 ✅ Resolve VMware network adapter conflicts  
-✅ Access hosted website from laptop/mobile browser
+✅ Access hosted website from laptop/mobile browser  
 
 ---
 
 ## 🛠 Technologies Used
 
-- Red Hat Enterprise Linux 10
-- VMware Workstation
-- Apache HTTP Server (httpd)
-- systemctl
-- journalctl
-- firewalld
-- SELinux
-- Linux Networking Commands
+- Red Hat Enterprise Linux 10  
+- VMware Workstation  
+- Apache HTTP Server (httpd)  
+- systemctl  
+- journalctl  
+- firewalld  
+- SELinux  
+- Linux Networking Commands  
 
 ---
 
@@ -65,16 +65,12 @@ Hosted Website Successfully Running:
 
 📷 Project Screenshots
 1️⃣ Apache Service Running Status
-(screenshots/Screenshot 2026-04-14 155734.png)
 
 2️⃣ Firewall Configuration
-(screenshots/Screenshot 2026-04-14 155854.png)
 
 3️⃣ Website Browser Output
-(screenshots/Screenshot 2026-04-14 153614.png)
 
 4️⃣ Website Source Code
-(screenshots/Screenshot 2026-04-14 155007.png)
 
 🔍 Issues Resolved
 ✅ Apache Startup Issue
@@ -97,14 +93,22 @@ redhat-linux-web-hosting-project/
 ├── index.html
 ├── commands-used.txt
 ├── screenshots/
-│   ├── apache-status.png
-│   ├── firewall-config.png
-│   ├── browser-output.png
-│   ├── website-output.png
-│   └── index-html.png
+│   ├── Screenshot 2026-04-14 155734.png
+│   ├── Screenshot 2026-04-14 155854.png
+│   ├── Screenshot 2026-04-14 153614.png
+│   └── Screenshot 2026-04-14 155007.png
 │
 └── configs/
     └── httpd.conf
+
+
+💡 Key Learnings
+Apache Web Server Deployment
+Linux Service Management using systemctl
+SELinux Troubleshooting
+Firewall Rule Configuration
+VMware Networking Debugging
+Real-world Linux Hosting Environment Setup
 
 
 👨‍💻 Author
@@ -113,5 +117,5 @@ Aaditya Pal
 Linux & Cloud Enthusiast
 Red Hat Linux | AWS | Apache | VMware
 
-🔗 GitHub Repository
+GitHub Repository
 https://github.com/aadityapalsagwan/redhat-linux-web-hosting-project
