@@ -1,0 +1,13 @@
+yum/dnf update -y
+yum/dnf install httpd -y
+systemctl start httpd
+systemctl enable httpd
+systemctl status httpd
+firewall-cmd --permanent --add-service=http
+firewall-cmd --reload
+ip a
+curl http://192.168.16.144
+ss -tulnp | grep :80
+getenforce
+setenforce 0
+journalctl -u httpd -n 20
